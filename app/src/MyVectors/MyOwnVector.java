@@ -21,7 +21,8 @@ public class MyOwnVector<T> {
             T[] newVector = (T[]) new Object[this.elements.length * 2];
             for(int i = 0; i < this.elements.length; i++){
                 newVector[i] = this.elements[i];
-            } 
+            }
+            this.elements = newVector;
         }
     }
 

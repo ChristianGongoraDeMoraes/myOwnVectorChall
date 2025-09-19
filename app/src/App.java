@@ -10,6 +10,10 @@ public class App {
         myOwnVector.add("lucia");
         myOwnVector.add("joana");
 
+        myOwnVector.search(0);
+        myOwnVector.search(1);
+        myOwnVector.search(2);
         myOwnVector.search(3);
+        
     }
 }
